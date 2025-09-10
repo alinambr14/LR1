@@ -17,7 +17,7 @@ int main() {
     std::cin >> step; // Задаем шаг, с которым будет изменяться аргумент
     
     std::cout << "x | y" << std::endl;
-    std::cout << "------" << std::endl;
+    std::cout << "----___--" << std::endl;
     
 
     std::vector<std::pair<double, double>> results;
