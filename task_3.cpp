@@ -15,6 +15,11 @@ int main() {
     
     std::cout << "Введите шаг: ";
     std::cin >> step; // Задаем шаг, с которым будет изменяться аргумент
+
+    if(step <= 0) {
+       std::cerr << "Error! step <=0 " << std::endl; 
+       return 1;
+    }
     
     std::cout << "x | y" << std::endl;
     std::cout << "---------" << std::endl;
